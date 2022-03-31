@@ -1,0 +1,34 @@
+<div class="container container-fluid t3 row align-items-start d-grid gap-3 col p-2 bg-light border">
+<ul>
+   <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-primary text-white text-center p-3">
+        <figure class="mb-0">
+          <blockquote class="blockquote">
+            <p>Your hair is a statment of style,</p>
+            <p>an affirmation of beauty,</p>
+            <p>and an expression of self-love</p>
+            
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 text-white">
+           <cite title="Source Title">A Mandella</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  {{#each personlist}}
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title"><button type="button" class="btn btn-light">
+<a href=/hair/{{@key}}>
+      {{this.name}}</a></button></h5>
+          <p class="card-text">{{{this.name}}} is a regular client, which loves restyling from colours to cuts.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+
+  {{/each}}
+</ul>
+</div>
