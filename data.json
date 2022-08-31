@@ -1,0 +1,43 @@
+{
+    "anna": {
+        "name": "Anna Haley",
+        "dob": "01/01/1998",
+        "imageurl": "/images/hairAnna.jpg",
+        "hobbies": ["Colour", "Hilites", "Cut"],
+        "visits": [{ "date": "21/03/2021", "task": "Wash cut and blowdry", "product": "Kemon shampoo and conditioner, Kemon hairspray" },
+            { "date": "19/01/2021", "task": "Colour + Hilites", "product": "Alfaparf 7nb 1/2 tube + 20% proxide, prelightner + 30% proxide, 11.20 toner + 10% proxide" },
+            { "date": "10/12/2020", "task": "cut restyle", "product": "kemon shampoo and conditioner, styling serum, wax" }
+        ]
+    },
+
+    "chloe": {
+        "name": "Chloe Henry",
+        "dob": "03/05/1995",
+        "imageurl": "/images/hairChloe.jpg"
+    },
+
+    "becca": {
+        "name": "Becca Furey",
+        "imageurl": "/images/hairBecca.jpg"
+    },
+    "patricia": {
+        "name": "Patricia Regan",
+        "dob": "07/03/1988",
+        "images": " /images/Patriciajpg.jpg "
+    },
+    "cara": {
+        "name": "Cara Winters",
+        "dob": "06/07/2000",
+        "images": "/images/hairCara.jpg"
+    },
+    "brianna": {
+        "name": "Brianna Fitzpatrick",
+        "dob": "09/09/2001",
+        "images": "/images/brianna.jpg"
+    },
+    "jackie": {
+        "name": "Jackie Horan",
+        "dob": "05/10/1987",
+        "images": "/images/jackie.jpg"
+    }
+}
